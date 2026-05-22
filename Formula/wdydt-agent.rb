@@ -1,7 +1,7 @@
 class WdydtAgent < Formula
   desc "Mac agent for lvr-wdydt-app — pushes ActivityWatch + Claude Code sessions"
   homepage "https://wdydt.golocalvr.com"
-  url "https://github.com/LVRHQ/lvr-wdydt-app/releases/download/v0.1.0/wdydt-agent-0.1.0.tar.gz"
+  url "https://github.com/LVRHQ/homebrew-tap/releases/download/v0.1.0/wdydt-agent-0.1.0.tar.gz"
   sha256 "c7b3a73057f8ff318ac90e6a2009bf909c07f2f745dff6ed0961c4975e8c018f"
   license "Proprietary"
   version "0.1.0"
