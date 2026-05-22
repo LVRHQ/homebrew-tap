@@ -7,7 +7,6 @@ class WdydtAgent < Formula
   version "0.1.0"
 
   depends_on "node"
-  depends_on cask: "activitywatch"
 
   def install
     libexec.install Dir["*"]
@@ -61,6 +60,8 @@ class WdydtAgent < Formula
     <<~EOS
       Next steps:
 
+        0. Install ActivityWatch if you don't already have it:
+             brew install --cask activitywatch
         1. Sign in to WDYDT at https://wdydt.golocalvr.com and grab your API
            token (Step 2 of the onboarding wizard).
         2. Save it to ~/.wdydt/config.json:
